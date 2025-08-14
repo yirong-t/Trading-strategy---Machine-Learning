@@ -4,11 +4,6 @@ from ManualStrategy import *
 import marketsimcode as msi
 import datetime as dt
 
-def author():
-    return "ytang332"
-
-def study_group():
-    return "gburdell3"
 
 def performance_metrics(df_portval=None):
 
