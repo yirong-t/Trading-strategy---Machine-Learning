@@ -3,12 +3,6 @@ import numpy as np
 from util import get_data,plot_data
 from matplotlib import pyplot as plt
 
-def author():
-    return "ytang332"
-
-def study_group():
-    return "gburdell3"
-
 # indicator 1 SMA
 def indicator_sma(price_data,lookback_days):
 
