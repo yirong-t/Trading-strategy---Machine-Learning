@@ -64,9 +64,8 @@ The project is organized with a clear separation of strategies, learners, experi
 ├── marketsimcode.py          # Market simulator for calculating portfolio stats
 ├── learners/                 # Directory for ML algorithm code
 │   ├── RTLearner.py
-│   ├── BagLearner.py
-│   └── ... (and other learners like DTLearner, QLearner)
-└── analysis_report.pdf       # The final generated report with charts and tables
+└── └── BagLearner.py
+
 ```
 
 -----
@@ -87,46 +86,45 @@ All experiments adhere to the following environment rules:
 
 This experiment directly compares the performance of the `ManualStrategy` against the `StrategyLearner` and the benchmark. The script generates two charts: one for the in-sample period and one for the out-of-sample period, showing the normalized portfolio value of all three. It also produces tables with key performance metrics (cumulative return, mean/STD of daily returns).
 
+##### Manual strategy buy & sell point with corresponding indicator:
+
+<img width="798" height="398" alt="image" src="https://github.com/user-attachments/assets/51e13991-04c1-4fea-989d-a07977ba3aaa" />
+
+##### In Sample Comparison
+<img width="782" height="420" alt="image" src="https://github.com/user-attachments/assets/d993b89b-c668-4cc0-89b8-6d280a459f2b" />
+
+
+##### Out-of-sample Comparison
+<img width="800" height="428" alt="image" src="https://github.com/user-attachments/assets/4b2fbb48-63be-4255-ac0e-54ccf3382257" />
+
 
 
 ### Experiment 2: Analyzing the Effect of Market Impact
 
 This experiment investigates how the `StrategyLearner`'s behavior changes as market impact costs are varied. By running the learner on the in-sample data with different `impact` values (e.g., 0.0, 0.005, 0.02), I analyze how its trading frequency and overall returns are affected. This demonstrates the learner's ability to adapt its policy to changing transaction costs, a crucial feature for real-world application.
 
+<img width="792" height="420" alt="image" src="https://github.com/user-attachments/assets/fb35b9a3-c1e1-4356-b3ab-b4345ce1f481" />
+
+
 -----
 
 ## Technology Stack 🛠️
 
   * **Language**: Python 3.8+
-  * **Core Libraries**: Pandas, NumPy, scikit-learn
+  * **Core Libraries**: Pandas, NumPy
   * **Visualization**: Matplotlib
 
 -----
+## Statistics
 
-## How to Run 🚀
 
-**1. Clone the repository:**
+* In Table 1:
+  In-sample: The manual strategy outperforms the benchmark with higher cumulative and mean daily returns, and lower volatility.
+Out-of-sample: Both show negative performance, but the manual strategy declines less, still outperforming the benchmark.<br>
 
-```bash
-git clone https://github.com/[Your-Username]/[your-repo-name].git
-cd [your-repo-name]
-```
+<img width="705" height="196" alt="image" src="https://github.com/user-attachments/assets/6288a023-11f1-47d0-8d79-ee1ddb27fac0" /><br><br><br>
 
-**2. Install dependencies:**
-
-```bash
-pip install -r requirements.txt
-```
-
-**3. Run the Full Project:**
-The `testproject.py` script is the main entry point and will execute all necessary components, including training the learner and running both experiments to generate all charts and tables for the final report.
-
-Execute the following command from the project's root directory:
-
-```bash
-python testproject.py
-```
-
-*(Note: Per project requirements, this script internally handles the necessary `PYTHONPATH` adjustments to correctly import modules from subdirectories.)*
-
-Upon completion, all generated charts and analysis tables will be available for review in the project directory.
+* In Table 2:
+  As the impact value increases, returns decrease and volatility increases, confirming the hypothesis that higher impact reduces profit and raises risk.<br>
+  
+<img width="722" height="171" alt="image" src="https://github.com/user-attachments/assets/1c09f534-a0d4-4ae6-b622-b694d179f561" />
