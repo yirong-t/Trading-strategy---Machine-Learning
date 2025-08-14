@@ -10,16 +10,6 @@ class RTLearner(object):
         self.verbose = verbose
         self.tree = None
 
-    def author(self):
-        return "ytang332"
-
-
-    def study_group(self):
-        return 'gburdell3'
-
-
-
-
     def random_feature(self, data_x):
 
         # np.random.seed(42)
