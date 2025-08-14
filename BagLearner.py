@@ -1,7 +1,6 @@
 
 import numpy as np
 
-
 class BagLearner(object):
 
     def __init__(self,learner, kwargs={}, bags=30,boost=False, verbose=False):
@@ -16,14 +15,6 @@ class BagLearner(object):
         """
         Constructor method
         """
-
-    def author(self):
-        return "ytang332"
-
-
-    def study_group(self):
-        return 'gburdell3'
-
 
     def generate_dataset(self,data_x,data_y):
         data_y = data_y.reshape(-1,1)
