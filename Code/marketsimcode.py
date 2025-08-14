@@ -1,13 +1,6 @@
 import pandas as pd
 from util import get_data
 
-
-def author():
-    return "ytang332"
-
-def study_group():
-    return "gburdell3"
-
 def compute_portvals(df_trades, start_val=100000, commission=0.00, impact=0.00):
 
 
