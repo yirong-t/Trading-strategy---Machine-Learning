@@ -8,13 +8,13 @@ This was developed as the capstone project for the Georgia Tech course, [CS7646:
 
 ## Table of Contents
 
-  - [Project Overview](https://www.google.com/search?q=%23project-overview-)
-  - [Key Features](https://www.google.com/search?q=%23key-features-)
-  - [Performance Highlights](https://www.google.com/search?q=%23performance-highlights-)
-  - [Project Structure](https://www.google.com/search?q=%23project-structure-)
-  - [Experiments & Methodology](https://www.google.com/search?q=%23experiments--methodology-)
-  - [Technology Stack](https://www.google.com/search?q=%23technology-stack-)
-  - [How to Run](https://www.google.com/search?q=%23how-to-run-)
+  - [Project Overview](https://github.com/yirong-t/Trading-strategy---Machine-Learning/tree/main?tab=readme-ov-file#project-overview-)
+  - [Key Features](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#project-structure-)
+  - [Performance Highlights](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#performance-highlights-)
+  - [Project Structure](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#project-structure-)
+  - [Experiments & Methodology](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#project-structure-)
+  - [Technology Stack](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#technology-stack-%EF%B8%8F)
+  - [How to Run](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#how-to-run-)
 
 -----
 
