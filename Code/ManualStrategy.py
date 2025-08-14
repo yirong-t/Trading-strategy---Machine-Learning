@@ -15,8 +15,6 @@ indicator_macd
 
 """
 
-
-
 class ManualStrategy:
 
     def __init__(self, verbose=False, impact=0.005, commission=9.95):
