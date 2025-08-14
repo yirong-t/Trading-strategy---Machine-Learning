@@ -6,18 +6,6 @@ This was developed as the capstone project for the Georgia Tech course, [CS7646:
 
 -----
 
-## Table of Contents
-
-  - [Project Overview](https://github.com/yirong-t/Trading-strategy---Machine-Learning/tree/main?tab=readme-ov-file#project-overview-)
-  - [Key Features](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#project-structure-)
-  - [Performance Highlights](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#performance-highlights-)
-  - [Project Structure](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#project-structure-)
-  - [Experiments & Methodology](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#project-structure-)
-  - [Technology Stack](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#technology-stack-%EF%B8%8F)
-  - [How to Run](https://github.com/yirong-t/Trading-strategy---Machine-Learning/edit/main/README.md#how-to-run-)
-
------
-
 ## Project Overview 💡
 
 The project's core is a head-to-head comparison between human intuition and machine learning in the context of stock trading.
