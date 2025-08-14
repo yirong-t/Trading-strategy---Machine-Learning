@@ -3,11 +3,6 @@ from ManualStrategy import *
 import marketsimcode as msi
 import datetime as dt
 
-def author():
-    return "ytang332"
-
-def study_group():
-    return "gburdell3"
 
 def benchmark(symbol="JPM",
               sd=dt.datetime(2008, 1, 1),
