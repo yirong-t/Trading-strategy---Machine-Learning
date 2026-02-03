@@ -2,8 +2,6 @@
 
 This project implements and compares two stock trading strategies: a **Manual Strategy** based on technical indicator rules and a **Strategy Learner** that uses machine learning to autonomously develop its own trading policy. The primary goal is to rigorously evaluate the performance of a human-designed approach against an ML-driven one using specific, controlled experimental parameters.
 
-This was developed as the capstone project for the Georgia Tech course, [CS7646: Machine Learning for Trading](https://omscs.gatech.edu/cs-7646-machine-learning-trading).
-
 -----
 
 ## Project Overview 💡
